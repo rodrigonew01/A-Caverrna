@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> A Caverna - Comunidade de Empresários</title>
+    <!-- Google Fonts para Cinzel e Montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'> <text y='.9em' font-size='90'>🕳️</text></svg>"> <!-- Placeholder para favicon -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Fixo -->
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <img src="logo.svg" alt="Caverna Logo" class="logo-img"> <!-- Logo SVG exclusivo -->
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#comunidade">Comunidade</a></li>
+                    <li><a href="#conteudos">Conteúdos</a></li>
+                    <li><a href="#eventos">Eventos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#entrar">Entrar</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Seção Hero -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Bem-vindo à Caverna — onde empresários se conectam</h2>
+                <p>Uma comunidade exclusiva para compartilhar conhecimento, promover autoconhecimento e construir redes de networking entre empresários visionários.</p>
+                <div class="buttons">
+                    <a href="#entrar" class="btn primary">Junte-se à Caverna</a>
+                    <a href="#conteudos" class="btn secondary">Ver conteúdos</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="cavaleiro.jpg" alt="Empresários conversando" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre a Caverna</h2>
+            <p>A Caverna é uma comunidade exclusiva para empresários que buscam crescimento pessoal e profissional. Nossa missão é conectar mentes brilhantes, promover autoconhecimento e fomentar networking em um ambiente de confiança e inovação.</p>
+            <div class="cards">
+                <div class="card">
+                    <h3>Mentorias</h3>
+                    <p>Acesso a mentores experientes para guiar seu caminho empreendedor.</p>
+                </div>
+                <div class="card">
+                    <h3>Conexões</h3>
+                    <p>Networking com empresários de diversos setores para oportunidades únicas.</p>
+                </div>
+                <div class="card">
+                    <h3>Recursos</h3>
+                    <p>Ferramentas e conteúdos exclusivos para acelerar seu negócio.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Comunidade -->
+    <section id="comunidade">
+        <div class="container">
+            <h2>Comunidade</h2>
+            <p>O grupo A Caverna reúne empresários em encontros online e presenciais, salas temáticas e eventos exclusivos. Aqui, você encontra um espaço para evoluir junto com outros líderes.</p>
+            <ul class="benefits">
+                <li>Encontros mensais para troca de ideias.</li>
+                <li>Salas temáticas sobre inovação e autoconhecimento.</li>
+                <li>Eventos de networking com palestrantes renomados.</li>
+                <li>Acesso a uma rede global de empresários.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Seção Conteúdos -->
+    <section id="conteudos">
+        <div class="container">
+            <h2>Conteúdos</h2>
+            <div class="content-grid">
+                <article>
+                    <img class="oi" src="marca.jpg" alt="Artigo sobre empreendedorismo" loading="lazy">
+                    <h3>Como Construir uma Marca Forte</h3>
+                    <p>Dicas práticas para empresários sobre branding e posicionamento no mercado.</p>
+                </article>
+                <article>
+                    <a href="https://www.facebook.com/100064720971800/videos/1252989316092108"><img class="oi" src="janderson.jpg" alt=" autoconhecimento" loading="lazy"></a>
+                    <h3>Autoconhecimento: Chave para o Sucesso</h3>
+                    <p> Empreender com propósito e como o auto-conhecimento impulsiona decisões empresariais.</p>
+                </article>
+                <article>
+                    <img class="oi" src="galera.jpg" alt="Networking entre empresários" loading="lazy">
+                    <h3>Networking Eficaz em Eventos</h3>
+                    <p>Estratégias para maximizar conexões em encontros empresariais.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Eventos -->
+    <section id="eventos">
+        <div class="container">
+            <h2>Eventos</h2>
+            <ul class="event-list">
+                <li><strong>Pitch Night</strong> — 15/11/2025: Apresente seu negócio e receba feedback.</li>
+                <li><strong>Workshop de Autoconhecimento</strong> — 20/12/2025: Sessão online com especialistas.</li>
+                <li><strong>Networking Summit</strong> — 10/01/2026: Encontro presencial para conexões.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Seção Entrar -->
+    <section id="entrar">
+        <div class="container">
+            <h2>Junte-se à Caverna</h2>
+            <form id="inscricao-form">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="descricao">Breve descrição do seu negócio:</label>
+                <textarea id="descricao" name="descricao" rows="4" required></textarea>
+                
+                <button type="submit" class="btn primary"><strong>Enviar inscrição</strong></button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>E-mail: contato@caverna.com</p>
+            <p>Telefone: (11) 99999-9999</p>
+            <div class="social-links">
+                <a href="" target="_blank" rel="noopener">Facebook</a>
+                <a href="" target="_blank" rel="noopener">Instagram</a>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <p>&copy; <span id="ano-atual"></span> Caverna. Todos os direitos reservados.</p>
+            
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
