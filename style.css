@@ -355,6 +355,20 @@ input {
 }
 
 /* Responsividade */
+@media (max-width: 1024px) {
+    .hero-content h2 {
+        font-size: 2.2rem;
+    }
+
+    .hero-content p {
+        font-size: 1.1rem;
+    }
+
+    .content-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+}
+
 @media (max-width: 768px) {
     .hamburger {
         display: flex;
@@ -396,6 +410,10 @@ input {
 
     .hero-content h2 {
         font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
     }
 
     .buttons {
@@ -459,11 +477,19 @@ input {
     .event-details p, .content-meta span {
         font-size: 0.85rem;
     }
+
+    .oi {
+        height: 45%;
+    }
 }
 
 @media (max-width: 480px) {
     .hero-content h2 {
         font-size: 1.8rem;
+    }
+
+    .hero-content p {
+        font-size: 0.9rem;
     }
 
     section h2 {
@@ -481,5 +507,37 @@ input {
 
     .oi {
         height: 40%;
+    }
+
+    .card {
+        padding: 15px;
+    }
+
+    .benefits li {
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .hero-content h2 {
+        font-size: 1.6rem;
+    }
+
+    section h2 {
+        font-size: 1.6rem;
+    }
+
+    .btn {
+        padding: 8px 15px;
+        font-size: 0.8rem;
+    }
+
+    .content-grid article {
+        padding: 10px;
+    }
+
+    .oi {
+        height: 35%;
     }
 }
